@@ -13,8 +13,8 @@ export const AppRouter = () => {
             
             <Route path="login" element={<LoginPage />} />
             
-            
-            <Route path="/*" element={ <HeroesRoutes />} />
+            <Route path='/Heroes-SPA-Single-Page-Application-/' element={<HeroesRoutes />} />
+            <Route path="/Heroes-SPA-Single-Page-Application-/*" element={ <HeroesRoutes />} />
             
             
 
